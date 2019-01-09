@@ -1,0 +1,20 @@
+name: root
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.7.2
+  - ipython
+  - pandas
+  - geopandas
+  - requests
+  - scipy
+  - scikit-learn
+  - matplotlib
+  - tqdm
+  - pip
+  - pyproj
+  - shapely
+  - fiona
+  - pip:
+    - altair
