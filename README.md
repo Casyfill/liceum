@@ -3,6 +3,9 @@
 python data analysis course for hight school students.
 2019-01-06
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Casyfill/liceum/master)
+
+
 course is covering 
 * basic programming literacy using python 3.7
 * fundamentals of statistics, data analysis and machine learning
