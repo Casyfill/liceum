@@ -3,6 +3,7 @@
 python data analysis course for hight school students.
 2019-01-06
 
+
 course is covering 
 * basic programming literacy using python 3.7
 * fundamentals of statistics, data analysis and machine learning
