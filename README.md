@@ -15,3 +15,10 @@ course is covering
 ## Jupyterhyb
 
 * course materials are deployed using Jupyterhub, based on [zero-to-jupyterhub](https://zero-to-jupyterhub.readthedocs.io) and [io_hub_setup](https://github.com/pupster90/io_Hub_Setup)
+
+## Image
+[link](https://cloud.docker.com/u/cityfish/repository/docker/cityfish/scipy-notebook-plus/general)
+class uses standart scipy-notebook image with nbgitpuller and nbgrader installed
+
+[Instructions](https://gist.github.com/glamp/74188691c91d52770807)
+
