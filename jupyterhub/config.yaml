@@ -31,6 +31,12 @@ singleuser:
 
 
 auth:
+  type: github
+  github:
+    clientId: "<GH_CLIENT>"
+    clientSecret: "<GH_SECRET>"
+    callbackUrl: "<GH_CALLBACK>"
+
   admin:
     users:
       - CasyFill
@@ -47,14 +53,9 @@ prePuller:
 scheduling:
   userScheduler:
     enabled: true
-  podPriority:
-    enabled: true
-  userPlaceholder:
-    enabled: true
-    replicas: 4
-  userPods:
-    nodeAffinity:
-      matchNodePurpose: prefer
+  # userPlaceholder:
+  #   enabled: true
+  #   replicas: 3
 
 cull:
   enabled: true
