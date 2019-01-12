@@ -54,7 +54,7 @@ scheduling:
     replicas: 4
   userPods:
     nodeAffinity:
-      matchNodePurpose: require
+      matchNodePurpose: prefer
 
 cull:
   enabled: true
