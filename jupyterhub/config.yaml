@@ -1,0 +1,62 @@
+# This file determines the settings of your jupyterhub
+# if u want a bettter idea of what the code is doing, check out the web links
+
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/setup-jupyterhub.html
+proxy:
+  secretToken: "<RANDOM_HEX>"
+
+hub:
+  extraConfig: |-
+    c.Spawner.cmd = ['jupyter-labhub']
+
+singleuser:
+  # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
+  defaultUrl: "/lab"
+
+  cpu:
+    limit: 2
+    guarantee: 0.05
+  memory:
+    limit: 4G
+    guarantee: 512M
+
+  image:
+    name: cityfish/scipy-notebook-plus
+    tag: latest
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
+  lifecycleHooks:
+    postStart:
+      exec:
+        command: ["gitpuller","https://github.com/Casyfill/liceum","master", "course_materials"]
+
+
+auth:
+  admin:
+    users:
+      - CasyFill
+      - dbkatz
+
+
+# https://zero-to-jupyterhub.readthedocs.io/en/latest/optimization.html
+prePuller:
+  hook:
+    enabled: true
+  continuous:
+    enabled: true
+
+scheduling:
+  userScheduler:
+    enabled: true
+  podPriority:
+    enabled: true
+  userPlaceholder:
+    enabled: true
+    replicas: 4
+  userPods:
+    nodeAffinity:
+      matchNodePurpose: require
+
+cull:
+  enabled: true
+  timeout: 3600
+  every: 300
