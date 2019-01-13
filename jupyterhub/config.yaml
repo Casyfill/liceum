@@ -21,8 +21,8 @@ singleuser:
     guarantee: 512M
 
   image:
-    name: cityfish/scipy-notebook-plus:0.1  # dont need nbgrader as it does not work on kubernetisdocker push cityfish/scipy-notebook-plus:tagname
-    tag: latest
+    name: cityfish/scipy-notebook-plus
+    tag: 0.1  # dont need nbgrader as it does not work on kubernetisdocker push cityfish/scipy-notebook-plus:tagname
 # https://zero-to-jupyterhub.readthedocs.io/en/latest/user-environment.html
   lifecycleHooks:
     postStart:
