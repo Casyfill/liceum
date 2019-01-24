@@ -3,7 +3,7 @@
 python data analysis course for hight school students.
 2019-01-06
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Casyfill/liceum/master)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Casyfill/liceum/master?urlpath=lab)
 
 
 course is covering 
