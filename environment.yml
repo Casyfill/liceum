@@ -1,20 +1,19 @@
 name: root
 channels:
   - conda-forge
-  - defaults
 dependencies:
   - python=3.7.2
-  - ipython
+  - tqdm
+  - numpy
+  - matplotlib
   - pandas
   - geopandas
-  - requests
-  - scipy
   - scikit-learn
-  - matplotlib
-  - tqdm
+  - scipy
+  - requests
+  - beautifulsoup4
+  - luigi
+  - hug
   - pip
-  - pyproj
-  - shapely
-  - fiona
   - pip:
     - altair
