@@ -7,7 +7,6 @@ python data analysis course for hight school students.
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Casyfill/liceum/blob/master/l1/1_variables.ipynb)
 
-https://github.com//
 
 course is covering 
 * basic programming literacy using python 3.7
