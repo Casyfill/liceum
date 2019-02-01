@@ -3,9 +3,9 @@
 python data analysis course for hight school students.
 2019-01-06
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Casyfill/liceum/master?urlpath=lab)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Casyfill/liceum/blob/master/l1/1_variables.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Casyfill/liceum/master?urlpath=lab)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Casyfill/liceum/blob/master/l1/1_variables.ipynb)
+
 
 
 course is covering 
