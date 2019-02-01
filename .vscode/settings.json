@@ -1,4 +1,5 @@
 {
     "python.linting.pylintEnabled": true,
-    "docker.defaultRegistryPath": "cityfish"
+    "docker.defaultRegistryPath": "cityfish",
+    "python.pythonPath": "/Users/philippk/anaconda3/envs/py36/bin/python"
 }
