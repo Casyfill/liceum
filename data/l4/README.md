@@ -1,4 +1,21 @@
-# DC Bikes data
+# Well-known NYC Citibike, 2018
+[All Data](https://s3.amazonaws.com/tripdata/index.html)
+
+
+ 201801-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:00 pm	23.24 MB	ZIP file
+ 201802-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:02 pm	27.45 MB	ZIP file
+ 201803-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:06 pm	31.77 MB	ZIP file
+ 201804-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:09 pm	42.78 MB	ZIP file
+ 201805-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:14 pm	60.40 MB	ZIP file
+ 201806-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:22 pm	64.68 MB	ZIP file
+ 201807-citibike-tripdata.csv.zip	Sep 6th 2018, 02:44:30 pm	63.14 MB	ZIP file
+ 201808-citibike-tripdata.csv.zip	Sep 12th 2018, 02:57:00 pm	84.33 MB	ZIP file
+ 201809-citibike-tripdata.csv.zip	Oct 3rd 2018, 02:48:03 pm	80.09 MB	ZIP file
+ 201810-citibike-tripdata.csv.zip	Nov 7th 2018, 02:43:33 pm	79.98 MB	ZIP file
+ 
+
+
+# DC Bikes data   <<<< DID NOT USE AFTER ALL
 По наводке Андрея Кармацкого
 
 
