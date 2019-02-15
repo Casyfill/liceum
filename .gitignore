@@ -106,3 +106,7 @@ venv.bak/
 jupyterhub/config.yaml
 video/*
 l5/Homework-Answer.ipynb
+
+api.txt
+pubg/*
+
