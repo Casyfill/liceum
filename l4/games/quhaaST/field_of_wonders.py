@@ -157,7 +157,7 @@ class Game:
             'x2': 'Вау, количество ваших очков удвоится, если Вы верно откроете букву.'
         }
         rand_value = randint(1, 12)
-        deq = deque(self.drum_variants)
+        deq = deque(self.drum_variants)  # Philipp - игш
         deq.rotate(rand_value)
         self.drum_variants = list(deq)
         print(f'Сектор {self.drum_variants[0]} на барабане!')
