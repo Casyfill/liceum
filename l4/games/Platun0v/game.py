@@ -61,8 +61,10 @@ class Game:
                 print(e, end='')
         print()
 
-
-def read_num(s='> '):
+# Philipp: абсолютно правильный подход, но тогда лоничго сделать
+# единую функуцию чтения/лупа, и ее так или иначе модифицировать (или ей передавать метод валидации строки )
+# чем несколько отдельных функций городить
+def read_num(s='> '): 
     while True:
         n = input(s)
         try:
@@ -125,7 +127,7 @@ def play_game():  # renamed for consistency
     game = Game(word)
     game.start()
 
-    letter = read(lst=['y', 'n', 'Y', 'N'],
+    letter = read(lst=['y', 'n', 'Y', 'N'],  #
                   s_in='Want to play again? [Y/n] ',
                   letter=True).lower()
     if letter == 'n':
