@@ -4,7 +4,7 @@ from collections import deque
 from time import sleep
 from pathlib import Path
 
-# очищаем консоль
+# очищаем консоль  # Philipp: здесь и далее - помещайте эти пометки в докстринг!
 def clear_console():
     os.system('cls' if os.name == 'nt' else 'clear')
 
@@ -157,7 +157,7 @@ class Game:
             'x2': 'Вау, количество ваших очков удвоится, если Вы верно откроете букву.'
         }
         rand_value = randint(1, 12)
-        deq = deque(self.drum_variants)  # Philipp - игш
+        deq = deque(self.drum_variants)  # Philipp - интересный подход, но я 99% уверен что itertools.cycle лучше подхложит
         deq.rotate(rand_value)
         self.drum_variants = list(deq)
         print(f'Сектор {self.drum_variants[0]} на барабане!')
