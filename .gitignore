@@ -112,4 +112,5 @@ api.txt
 pubg/*
 
 l9/1_Intro_to_ML_filled.ipynb
-l5/responses.csverrored_report.pkl
+l5/responses.csv
+errored_report.pkl
