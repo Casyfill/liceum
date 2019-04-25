@@ -114,3 +114,5 @@ pubg/*
 l9/1_Intro_to_ML_filled.ipynb
 l5/responses.csv
 errored_report.pkl
+data/pubg/*
+pubg/.ipynb_checkpoints/*
