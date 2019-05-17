@@ -1,0 +1,75 @@
+{
+    "melee": [
+        "Punch",
+        "Pan",
+        "Machete",
+        "Sickle",
+        "Crowbar"
+    ],
+    "bluezone": [
+        "Bluezone"
+    ],
+    "redzone": [
+        "RedZone",
+        "death.Buff_FireDOT_C"
+    ],
+    "nature": [
+        "Drown",
+        "Falling"
+    ],
+    "vehicle": [
+        "Hit by Car",
+        "Motorbike (SideCar)",
+        "Boat",
+        "Buggy",
+        "Uaz",
+        "Dacia",
+        "Aquarail",
+        "Motorbike"
+    ],
+    "pistol": [
+        "R1895",
+        "P1911",
+        "P18C",
+        "P92"
+    ],
+    "granade": [
+        "death.ProjMolotov_DamageField_C",
+        "Grenade",
+        "death.ProjMolotov_C"
+    ],
+    "sniper": [
+        "VSS",
+        "Kar98k",
+        "SKS",
+        "M24",
+        "Mini 14",
+        "Mk14",
+        "AWM",
+        "Crossbow"
+    ],
+    "smg": [
+        "Micro UZI",
+        "Vector",
+        "Tommy Gun",
+        "UMP9"
+    ],
+    "shotgun": [
+        "S686",
+        "S1897",
+        "S12K"
+    ],
+    "assault": [
+        "M16A4",
+        "AKM",
+        "SCAR-L",
+        "M416",
+        "AUG",
+        "Groza",
+        "DP-28",
+        "M249"
+    ],
+    "DaO": [
+        "Down and Out"
+    ]
+}
